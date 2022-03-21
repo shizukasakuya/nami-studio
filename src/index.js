@@ -7,6 +7,13 @@ import * as serviceWorker from './serviceWorker';
 import {BrowserRouter  as Router} from "react-router-dom"
 import "./index.css"
 
+export const presets =[
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ]
+export const plugins = [ "babel/plugin-syntax-jsx"]
+
+
 ReactDOM.render(
   <Router>
     <StrictMode>

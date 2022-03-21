@@ -1,0 +1,3 @@
+[submodule "src/website-shared-core"]
+	path = src/website-shared-core
+	url = https://github.com/shizukasakuya/website-shared-core

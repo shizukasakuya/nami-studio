@@ -4,14 +4,10 @@ import {shadeColor} from "./util/shade"
 
 //https://www.joshwcomeau.com/react/rainbow-button/
 
-const light = ["#ff71ce", "#01cdfe", "#05ffa1", "#b967ff", "#fffb96"]
 
 const MenuItem = ({children, to, item})=> {
     const itemN = item | 0
-    const { colorMode } = useColorMode()
-    const colors = colorMode === "light" ? 
-        light :
-        light.map(color => shadeColor(color, -30)) ;
+    const colors = ["#fe444a", "#fbe6a5", "#bbd7ed"]
     return (
         <Link to={to}>
             <Center 
@@ -21,6 +17,7 @@ const MenuItem = ({children, to, item})=> {
                 textAlign="center" verticalAlign="center" boxShadow="dark-lg" 
                 _hover={{ boxShadow: "none" }}
                 fontWeight="medium"
+                fontColor="1E0E0E"
             >
                 {children}
             </Center>

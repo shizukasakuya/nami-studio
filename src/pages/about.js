@@ -20,22 +20,14 @@ export const About =  ()=> {
             />
             <Box>
                 <Text>
-                The name is Kuya (koo- ya), 
-                </Text>
-                <br/>
-                <Text>
-                I stream randomly at the moment! Usually daily at around 1am PST, but the times are subject to change!
-                </Text>
-                <Text>
-
-                Full name is Shizuka Sakuya (Quiet Last Night) and I'm a kitsune-cat-neko-deity who codes, games, and is perpetually caught within an existentialist progression system.
+                I’m KuyaNine (he/him), an American 27yo gamer & streamer. Calm yet chatty vTuber. Looking forward to hanging out & playing together.
                 </Text>
                 <br/>
                 <Text>
                 Business Inquries:
                 </Text>
                 <Text>
-                sakuya@nami.studio
+                sakuya@KuyaNine.com
                 </Text>
             </Box>
         </SimpleGrid>

@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/runtime": "^7.17.2",
     "@chakra-ui/react": "^1.6.8",
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
@@ -14,14 +18,16 @@
     "react-dom": "^17.0.2",
     "react-icons": "^3.11.0",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^0.2.4"
+    "react-scripts": "^5.0.0",
+    "web-vitals": "^0.2.4",
+    "website-shared-core": "github:shizukasakuya/website-shared-core"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "update": "git submodule foreach git pull"
   },
   "eslintConfig": {
     "extends": "react-app"
